@@ -1,0 +1,17 @@
+.stage {
+  width: 100%; 
+  height: 40vh; 
+  background: grey;
+}
+
+.meteor {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    transition: transform 1s;
+}
+
+.meteor.move {
+    -ms-transform: translate(235px,35px); /* IE 9 */
+    transform: translate(235px,35px); /* Standard syntax */
+}
